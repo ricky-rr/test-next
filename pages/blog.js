@@ -17,19 +17,19 @@ export default function Blog({ post }) {
         <div className="main-text font-AzoReg text-md text-gray-100 mr-2">
           Beta Launching Soon!
         </div>
-        <a
+        <Link
           href="/"
           className="main-text cursor-pointer font-AzoBold text-md text-blue-300"
         >
           Sign up to Join the waitlist!
-        </a>
-        <a href="/">
+        </Link>
+        <Link href="/">
           <AiFillCaretDown
             className="mx-1 cursor-pointer rotate-90"
             color="white"
             size={23}
           />
-        </a>
+        </Link>
       </div>
       <Header />
       <div className="bg-white  flex flex-col h-screen">
