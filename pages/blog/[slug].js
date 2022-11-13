@@ -18,7 +18,6 @@ function Post({ post }) {
           Written by: <span className="font-normal">{post.author.name}</span>
         </h1>
         <img
-          alt="author image"
           width={50}
           height={50}
           className="rounded-full mb-2"
@@ -26,7 +25,6 @@ function Post({ post }) {
         ></img>
       </div>
       <img
-        alt="blog post header image"
         width={650}
         height={350}
         className="mx-auto rounded-lg mb-10"
