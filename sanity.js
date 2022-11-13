@@ -4,7 +4,6 @@ import {
 } from "next-sanity";
 import createImageUrlBuilder from "@sanity/image-url";
 import { createClient } from "next-sanity";
-
 export const config = {
   /**
    * Find your project ID and dataset in `sanity.json` in your studio project.
@@ -13,8 +12,8 @@ export const config = {
    *
    * https://nextjs.org/docs/basic-features/environment-variables
    **/
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
-  projectId: "wo8l734t",
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   apiVersion: "2021-10-21", // Learn more: https://www.sanity.io/docs/api-versioning
   /**
    * Set useCdn to `false` if your application require the freshest possible
