@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        AzoBlack: ["AzoSans-Black", "sans-serif"],
+        EuclidBold: ["EuclidBold", "sans-serif"],
       },
     },
   },

@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: "AzoSans-Black";
-  src: "/fonts/azo/AzoSans-Black.ttf";
+  font-family: "EuclidBold";
+  src: url("/fonts/euclid/EuclidBold.ttf");
   font-weight: normal;
   font-style: normal;
 }
